@@ -1,0 +1,15 @@
+componente Persona {
+    instalar string nombre;
+    instalar int edad;
+
+    iniciar(string n, int e) {
+        estaApp.nombre = n;
+        estaApp.edad = e;
+    }
+
+    servicio int obtenerEdad() {
+        devolver 20;
+    }
+}
+
+instalar Persona persona = crearApp Persona("Carlos", 20);

@@ -1,0 +1,2 @@
+pantalla (edad >= 18) {
+    publicar("Hola");

@@ -1,0 +1,24 @@
+instalar int edad = 20;
+instalar string nombre = "Carlos";
+
+publicar("Hola " + nombre);
+publicar(edad + 5);
+
+pantalla (edad >= 18) {
+    publicar("Mayor de edad");
+} porDefecto {
+    publicar("Menor de edad");
+}
+
+instalar int contador = 0;
+
+actualizar (contador < 3) {
+    publicar(contador);
+    contador = contador + 1;
+}
+
+servicio int sumar(int a, int b) {
+    devolver a + b;
+}
+
+publicar(sumar(3, 5));

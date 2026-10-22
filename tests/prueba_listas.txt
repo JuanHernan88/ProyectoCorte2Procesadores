@@ -1,0 +1,7 @@
+instalar int numeros = [10, 20, 30];
+
+publicar(numeros[1]);
+
+numeros[1] = 50;
+
+publicar(numeros[1]);
